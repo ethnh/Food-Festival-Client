@@ -135,6 +135,17 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
+
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/M502M1t/chad-montano-g-E28a-Tnlq-JA-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                        <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
+                            <div className="max-w-2xl bg-black bg-opacity-60 p-4">
+                                <h1 className="text-3xl font-bold text-white ">Savor Culinary Delights at Our Restaurant</h1>
+                                <p className="text-sm text-white my-2">Immerse in a culinary symphony, where our chefs orchestrate an ensemble of flavors, crafting an unforgettable dining experience for you.</p>
+                                <Link to='/register'><button className="bg-orange-400 px-5 py-2 rounded-3xl text-white font-semibold my-3">Order Now</button></Link>
+                            </div>
+                        </div>
+                    </div></SwiperSlide>
+
                     <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/mRW9R5j/david-holifield-k-Pxsq-UGne-XQ-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
@@ -144,6 +155,17 @@ const Banner = () => {
                             </div>
                         </div>
                     </div></SwiperSlide>
+
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/bzRzsPG/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                        <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
+                            <div className="max-w-2xl bg-black bg-opacity-60 p-4">
+                                <h1 className="text-3xl font-bold text-white"> Indulge in Gastronomic Wonders</h1>
+                                <p className="text-sm text-white my-2">Elevate your dining expectations as we blend tradition with innovation, presenting a curated culinary experience that tantalizes and satisfies.</p>
+                                <Link to='/register'><button className="bg-orange-400 px-5 py-2 rounded-3xl text-white font-semibold my-3">Order Now</button></Link>
+                            </div>
+                        </div>
+                    </div></SwiperSlide>
+
 
                     <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/prykSGr/paras-kapoor-SQ1v-UOx-SIZc-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
