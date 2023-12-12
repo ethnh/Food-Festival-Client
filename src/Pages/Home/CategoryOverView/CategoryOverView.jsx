@@ -26,7 +26,7 @@ const CategoryOverView = () => {
     return (
         <>
             <section>
-                <SectionTitle titleImg={titleImg} heading={'Items'} subHeading={'A Comprehensive Overview of Our Diverse and Exceptional Product and Service Categories.'}></SectionTitle>
+                <SectionTitle titleImg={titleImg} heading={'Our Items'} subHeading={'A Comprehensive Overview of Our Diverses'}></SectionTitle>
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}

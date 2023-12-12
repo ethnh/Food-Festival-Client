@@ -1,0 +1,6 @@
+.linkItemImg{
+    background-image: url('./parallaxImg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
