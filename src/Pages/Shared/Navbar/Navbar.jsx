@@ -6,6 +6,7 @@ const Navbar = () => {
     const navLinks = <>
         <li><Link className='font-semibold text-white' to='/'>Home</Link></li>
         <li><Link className='font-semibold text-white' to='/menu'>Our Menu</Link></li>
+        <li><Link className='font-semibold text-white' to='/'>Order</Link></li>
         <li><Link className='font-semibold text-white' to='/'>Contact Us</Link></li>
         <li><Link className='font-semibold text-white' to='/'>Dashboard</Link></li>
     </>
@@ -21,7 +22,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <Link><img src={logo} className="w-[70px] ml-5" alt="" /></Link>
+                <Link to='/'><img src={logo} className="w-[70px] ml-5" alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

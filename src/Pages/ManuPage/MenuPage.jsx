@@ -8,6 +8,14 @@ import MenuTab from "./MenuTab";
 import 'react-tabs/style/react-tabs.css';
 
 
+import burgerImg from '../../assets/img/burger.jpg'
+import pizzaImg from '../../assets/img/pizza.jpg'
+import cakeImg from '../../assets/img/cake.jpg'
+import sandwichImg from '../../assets/img/sandwich.jpg'
+import kababImg from '../../assets/img/kabab.jpg'
+import fryImg from '../../assets/img/fry.jpg'
+
+
 const MenuPage = () => {
 
     const [menu] = useMenu();
@@ -27,9 +35,9 @@ const MenuPage = () => {
 
             <CoverImage img={coverImg} title={"Our Menu"} description={"This is our Menu page,From here you can choose your favourite food"}></CoverImage>
 
-            <div className="my-4">
+            <div className="mt-10">
                 <Tabs>
-                    <TabList>
+                    <TabList className="mx-auto text-center space-x-5">
                         <Tab>Popular</Tab>
                         <Tab>Salad</Tab>
                         <Tab>Pizza</Tab>
@@ -38,22 +46,51 @@ const MenuPage = () => {
                         <Tab>Drinks</Tab>
                     </TabList>
                     <TabPanel>
-                        <MenuTab items={homeMenuOverview}></MenuTab>
+                        <MenuTab
+                            items={homeMenuOverview}
+                            title={"homeMenuOverview"}
+                            img={burgerImg}
+                        ></MenuTab>
                     </TabPanel>
+
                     <TabPanel>
-                        <MenuTab items={salad}></MenuTab>
+                        <MenuTab
+                            items={salad}
+                            title={"salad"}
+                            img={pizzaImg}>
+                        </MenuTab>
                     </TabPanel>
+
                     <TabPanel>
-                        <MenuTab items={pizza}></MenuTab>
+                        <MenuTab
+                            items={pizza}
+                            title={"pizza"}
+                            img={cakeImg}
+                        ></MenuTab>
                     </TabPanel>
+
                     <TabPanel>
-                        <MenuTab items={soup}></MenuTab>
+                        <MenuTab
+                            items={soup}
+                            title={"soup"}
+                            img={sandwichImg}
+                        ></MenuTab>
                     </TabPanel>
+
                     <TabPanel>
-                        <MenuTab items={desserts}></MenuTab>
+                        <MenuTab
+                            items={desserts}
+                            title={"dessert"}
+                            img={kababImg}
+                        ></MenuTab>
                     </TabPanel>
+
                     <TabPanel>
-                        <MenuTab items={drinks}></MenuTab>
+                        <MenuTab
+                            items={drinks}
+                            title={"drinks"}
+                            img={fryImg}
+                        ></MenuTab>
                     </TabPanel>
                 </Tabs>
             </div>
