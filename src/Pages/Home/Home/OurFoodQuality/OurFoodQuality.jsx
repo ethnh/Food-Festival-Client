@@ -1,9 +1,8 @@
-import img1 from '../../../assets/img/sideImg.jpg'
-import img2 from '../../../assets/img/smImg1.jpg'
+import img1 from '../../../../assets/img/sideImg.jpg'
+import img2 from '../../../../assets/img/smImg1.jpg'
 
-const HomeMenuLink = () => {
+const OurFoodQuality = () => {
     return (
-
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 <div className='lg:w-1/2 relative'>
@@ -19,8 +18,7 @@ const HomeMenuLink = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
-export default HomeMenuLink;
+export default OurFoodQuality;

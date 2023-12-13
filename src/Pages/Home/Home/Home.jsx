@@ -2,8 +2,9 @@ import AfterBanner from "../../../Components/AfterBanner/AfterBanner";
 import RegisterLink from "../../../Components/RegisterLink/RegisterLink";
 import Banner from "../Banner/Banner";
 import CategoryOverView from "../CategoryOverView/CategoryOverView";
-import HomeMenuLink from "../HomeMenuLink/HomeMenuLink";
 import PopularMenuOverview from "../PopularMenuOverview/PopularMenuOverview";
+import OurFoodQuality from "./OurFoodQuality/OurFoodQuality";
+import Testimonial from "./Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -12,9 +13,10 @@ const Home = () => {
             <Banner></Banner>
             <AfterBanner></AfterBanner>
             <CategoryOverView></CategoryOverView>
-            <HomeMenuLink></HomeMenuLink>
+            <OurFoodQuality></OurFoodQuality>
             <PopularMenuOverview></PopularMenuOverview>
             <RegisterLink></RegisterLink>
+            <Testimonial></Testimonial>
         </div>
     );
 };
