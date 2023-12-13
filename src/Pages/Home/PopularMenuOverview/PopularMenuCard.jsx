@@ -20,7 +20,7 @@ const PopularMenuCard = ({ item }) => {
                     <p className="flex items-center gap-2"><HiOutlineCheckBadge className="text-xl text-red-400" /> {quantity}</p>
                     <p className="flex items-center gap-2"><HiOutlineCheckBadge className="text-xl text-red-400" /> {withFood}</p>
                     <hr />
-                    <h1 className="text-base badge badge-outline">Contact to Order OR Ask For that</h1>
+                    <h1 className="badge badge-outline">Contact to Order OR Ask For that</h1>
                 </div>
             </div>
         </div>

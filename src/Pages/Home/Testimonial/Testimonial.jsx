@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import '@smastrom/react-rating/style.css';
 import { FaComments } from "react-icons/fa";
-import SectionTitle from '../../../../Components/SectionTitle/SectionTitle';
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Testimonial = () => {
     const [reviews, setReviews] = useState([]);
