@@ -41,7 +41,7 @@
         "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
         "image": "https://i.ibb.co/ZfrtzKB/paras-kapoor-SQ1v-UOx-SIZc-unsplash-1.jpg",
         "category": "popular",
-        "quantity":"4 Piece Chicken",
+        "quantity":"14 Piece Chicken",
         "withFood":"Spicy Sauce And Mayonnaise",
         "offer":30,
         "price": 14.5,
@@ -73,54 +73,60 @@
     },
     {
         "_id": "642c155b2c4774f05c36eeaa",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "salad",
-        "price": 14.7
+        "name": "Zoom Burger",
+        "recipe": "Savor the unexpected: A tantalizing fusion of flavors that will playfully dance on your taste buds.",
+        "image": "https://i.ibb.co/02dphSZ/ilya-mashkov-mk-Va2h-LJgn-I-unsplash-2.jpg",
+        "category": "homeMenuOverview",
+        "price": 10,
+        "rating":4.2
     },
     {
         "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
-        "category": "drinks",
-        "price": 14.7
+        "name": "Speedy Munch",
+        "recipe": "Indulge in culinary mischief with our dishes, where every bite whispers a delightful secret.",
+        "image": "https://i.ibb.co/0jyD2b7/sarang-pande-msd-TDn-Uxt-EA-unsplash-1.jpg",
+        "category": "homeMenuOverview",
+        "price": 20,
+        "rating":4.4
     },
     
     
     {
         "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Rapid Grub",
+        "recipe": "Rebellion begins: Bold, cheeky, and utterly irresistible—our food invites you to embrace flavor rebellion.",
+        "image": "https://i.ibb.co/xGwKJQG/takuya-nagaoka-f-ENv-SZUzbz-U-unsplash.jpg",
+        "category": "homeMenuOverview",
+        "price": 30,
+        "rating":4.2
     },
     
     {
         "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "dessert",
-        "price": 12.5
+        "name": "Swift Sizzle",
+        "recipe": "Unleash your taste adventure: Our food teases the senses, a tempting journey into delightful indulgence.",
+        "image": "https://i.ibb.co/pnc0w0C/alaundra-alford-Bm-Rb-JBoud-Dw-unsplash.jpg",
+        "category": "homeMenuOverview",
+        "price": 40,
+        "rating":4.00
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "pizza",
-        "price": 12.5
+        "name": "Escalope Kabab",
+        "recipe": "Dive into temptation: Our dishes flirt with your palate, a symphony of tastes that seduce the senses.",
+        "image": "https://i.ibb.co/xsMNkrL/paras-kapoor-O1u-ZPhx-Ok0-unsplash.jpg",
+        "category": "homeMenuOverview",
+        "price": 50,
+        "rating":4.1
     },
     {
         "_id": "642c155b2c4774f05c36ee9e",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+        "name": "Breton TurboTaste",
+        "recipe": "Embark on a culinary rendezvous: Our food teases and tempts, promising a journey of irresistible pleasure.",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
-        "price": 12.9
+        "category": "homeMenuOverview",
+        "price": 60,
+        "rating":4.8
     },
     {
         "_id": "642c155b2c4774f05c36eea6",

@@ -11,7 +11,7 @@ const MenuOverView = () => {
             .then(res => res.json())
             .then(data => setmenuOverView(data))
     }, [])
-    const homePageMenu = menuOverView.filter(item => item.category === 'popular') //homePageMenu
+    const homePageMenu = menuOverView.filter(item => item.category === 'homeMenuOverview') //homePageMenu
     return (
         <section className="mb-12">
             <SectionTitle heading={'Menu Overview'} subHeading={'Here some overview food from FOOD MENU, Click Order Dood From Menu Button form explore'}></SectionTitle>

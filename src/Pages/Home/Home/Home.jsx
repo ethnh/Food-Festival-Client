@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import AfterBanner from "../../../Components/AfterBanner/AfterBanner";
 import RegisterLink from "../../../Components/RegisterLink/RegisterLink";
 import Banner from "../Banner/Banner";
@@ -11,6 +12,9 @@ import Testimonial from "../Testimonial/Testimonial";
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Food Festival | Home</title>
+            </Helmet>
             <Banner></Banner>
             <AfterBanner></AfterBanner>
             <CategoryOverView></CategoryOverView>
