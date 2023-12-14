@@ -12,8 +12,8 @@ const MenuTab = ({ items, title, img, description }) => {
                     items.map(item => <MenuCard key={item._id} item={item}></MenuCard>)
                 }
             </div>
-            <div className="text-center">
-                <Link to={`/allItems/${title}`}><button className="btn bg-slate-600 border-0 border-b-4 mt-4 text-white mb-16"> Order Now</button></Link>
+            <div className="text-center my-8">
+                <Link to={`/allItems/${title}`}><button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold">Chick here To choice and Order</button></Link>
             </div>
         </div>
     );
