@@ -7,6 +7,8 @@ import MenuPage from "../Pages/ManuPage/MenuPage";
 import AllItems from "../Pages/AllItems/AllItems";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
+import Dashboard from "../Layout/Dashboard";
 
 export const router = createBrowserRouter([
     {
@@ -35,4 +37,46 @@ export const router = createBrowserRouter([
             }
         ]
     },
+    {
+        path: 'dashboard',
+        element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
+        children: [
+            // // e gulo normal user routes
+            // {
+            //     path: 'cart',
+            //     element: <Cart></Cart>
+            // },
+            // {
+            //     path: 'payment',
+            //     element: <Payment></Payment>
+            // },
+            // {
+            //     path: 'paymentHistory',
+            //     element: <PaymentHistory></PaymentHistory>
+            // },
+
+            // // addmin onlyyyyyy routes
+            // {
+            //     path: 'adminHome',
+            //     element: <AdminRoute><AdminHome></AdminHome></AdminRoute>
+            // },
+            // {
+            //     path: 'addItems',
+            //     element: <AdminRoute><AddItems></AddItems></AdminRoute>
+            // },
+            // {
+            //     path: 'manageItems',
+            //     element: <AdminRoute><ManageItems></ManageItems></AdminRoute>
+            // },
+            // {
+            //     path: 'updateItem/:id',
+            //     element: <AdminRoute><ItemUpdate></ItemUpdate></AdminRoute>,
+            //     loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
+            // },
+            // {
+            //     path: 'users',
+            //     element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
+            // }
+        ]
+    }
 ]);

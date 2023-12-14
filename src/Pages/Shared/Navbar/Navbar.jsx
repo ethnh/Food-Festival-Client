@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
 import toast from "react-hot-toast";
 import { BsCart2 } from "react-icons/bs";
+import useCarts from "../../../Hooks/useCarts";
 const Navbar = () => {
-    const { user, logOut } = useAuth()
+    const { user, logOut } = useAuth();
+    const [cart] = useCarts();
 
     const navLinks = <>
         <li><Link className='font-semibold text-white' to='/'>Home</Link></li>
@@ -17,7 +19,7 @@ const Navbar = () => {
         <li><Link className='font-semibold text-white' to='/'>
             <button className="btn">
                 <BsCart2 className="text-2xl"></BsCart2>
-                <div className="badge badge-secondary">+0</div>
+                <div className="badge badge-secondary">+ {cart.length}</div>
             </button>
         </Link>
         </li>
