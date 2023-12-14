@@ -1,23 +1,19 @@
 import { Helmet } from "react-helmet-async";
 import CoverImage from "../Shared/CoverImage/CoverImage";
-
-import coverImg from '../../assets/img/smImg2.jpg'
-import useMenu from "../../Hooks/useMenu";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import MenuTab from "./MenuTab";
-import 'react-tabs/style/react-tabs.css';
+import useMenu from "../../Hooks/useMenu";
+import { useParams } from "react-router-dom";
+import { useState } from "react";
+import AllItemTab from "./AllItemTab";
 
+import coverImg from '../../assets/img/sandwich.jpg'
 
-import burgerImg from '../../assets/img/burger.jpg'
-import pizzaImg from '../../assets/img/pizza.jpg'
-import cakeImg from '../../assets/img/cake.jpg'
-import sandwichImg from '../../assets/img/sandwich.jpg'
-import fryImg from '../../assets/img/wings.jpg'
-import bbqImg from '../../assets/img/bbq.jpg'
+const AllItems = () => {
 
-
-const MenuPage = () => {
-
+    const categories = ['homeMenuOverview', 'burger', 'pizza', 'cake', 'wings', 'sandwich', 'bbq'];
+    const { category } = useParams();
+    const initialIndex = categories.indexOf(category)
+    const [tabIndex, setTabIndex] = useState(initialIndex);
     const [menu] = useMenu();
 
 
@@ -34,10 +30,10 @@ const MenuPage = () => {
                 <title>Food Festival | Our Menu</title>
             </Helmet>
 
-            <CoverImage img={coverImg} title={"Our Menu"} description={"This is our Menu page,From here you can choose your favourite food"}></CoverImage>
+            <CoverImage img={coverImg} title={"All Items"} description={"This is our all items page, Here all the items are available"}></CoverImage>
 
             <div className="mt-10">
-                <Tabs>
+                <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                     <TabList className="mx-auto text-center space-x-5">
                         <Tab>Popular</Tab>
                         <Tab>Burger</Tab>
@@ -48,59 +44,45 @@ const MenuPage = () => {
                         <Tab>BBQ</Tab>
                     </TabList>
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={homeMenuOverview}
-                            title={"homeMenuOverview"}
-                            img={coverImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
-                            items={burger}
-                            title={"burger"}
-                            img={burgerImg}>
-                        </MenuTab>
+                        <AllItemTab
+                            items={burger}>
+                        </AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={pizza}
-                            title={"pizza"}
-                            img={pizzaImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={cake}
-                            title={"cake"}
-                            img={cakeImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={wings}
-                            title={"wings"}
-                            img={fryImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={sandwich}
-                            title={"sandwich"}
-                            img={sandwichImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
 
                     <TabPanel>
-                        <MenuTab
+                        <AllItemTab
                             items={bbq}
-                            title={"bbq"}
-                            img={bbqImg}
-                        ></MenuTab>
+                        ></AllItemTab>
                     </TabPanel>
                 </Tabs>
             </div>
@@ -108,4 +90,4 @@ const MenuPage = () => {
     );
 };
 
-export default MenuPage;
+export default AllItems;

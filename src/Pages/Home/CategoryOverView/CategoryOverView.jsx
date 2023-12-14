@@ -39,49 +39,49 @@ const CategoryOverView = () => {
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] mr-3 lg:h-[500px]'>
                             <img src={burger} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50'>Burger</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Burger</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]'>
                             <img src={pizza} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Pizza</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Pizza</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]'>
                             <img src={wings} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Wings</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Wings</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]'>
                             <img src={sandwich} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Sandwich</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Sandwich</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]'>
                             <img src={bbq} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>BBQ</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>BBQ</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]' >
                             <img src={cake} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Cake</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Cake</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]' >
                             <img src={fry} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Fry</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Fry</h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='lg:w-[400px] w-[200px] h-[200px] lg:h-[500px]'>
                             <img src={kabab} className=' rounded-md' alt="" />
-                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-slate-600 z-10'>Kabab</h3>
+                            <h3 className='lg:text-4xl shadow-2xl uppercase text-center -mt-20 text-white bg-black bg-opacity-50 z-10'>Kabab</h3>
                         </div>
                     </SwiperSlide>
                 </Swiper>
