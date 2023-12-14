@@ -2,10 +2,62 @@ import { FaStar } from "react-icons/fa";
 import { HiOutlineCheckBadge } from "react-icons/hi2";
 import { IoBookmarksOutline } from "react-icons/io5";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
+import Swal from "sweetalert2";
+import useAuth from "../../Hooks/useAuth";
+import { useLocation, useNavigate } from "react-router-dom";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 
 const AllItemsCard = ({ item }) => {
-    const { image, name, price, rating, offer, posiviteOne, posiviteTwo } = item;
+    const { _id, image, name, price, rating, offer, posiviteOne, posiviteTwo } = item;
+    const { user } = useAuth();
+    const navigate = useNavigate();
+    const location = useLocation();
+    const axiosSecure = useAxiosSecure();
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+
+            const cartItem = {
+                menuId: _id,
+                email: user.email,
+                name,
+                image,
+                price,
+                rating,
+                offer
+            }
+            axiosSecure.post('/carts', cartItem)
+                .then(res => {
+                    console.log(res.data)
+                    if (res.data.insertedId) {
+                        Swal.fire({
+                            position: "center",
+                            icon: "success",
+                            title: `${name} added to your cart`,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        // refetch();
+                    }
+                })
+        }
+        else {
+            Swal.fire({
+                title: "You are not login",
+                text: "Please Log In first to Add to Cart",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes,Login"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate('/login', { state: { from: location } })
+                }
+            });
+        }
+    }
     return (
         <div>
             <div className="card card-compact w-80 bg-base-100 shadow-2xl">
@@ -22,7 +74,9 @@ const AllItemsCard = ({ item }) => {
                     <p className="flex items-center gap-2"><HiOutlineCheckBadge className="text-xl text-red-400" />{posiviteOne}</p>
                     <p className="flex items-center gap-2"><HiOutlineCheckBadge className="text-xl text-red-400" />{posiviteTwo}</p>
                     <hr />
-                    <button className="btn rounded-3xl badge badge-outline w-full hover:bg-gray-200 transition-all">Add To Cart <HiOutlineShoppingCart className="text-xl text-orange-500 "></HiOutlineShoppingCart></button>
+                    <button
+                        onClick={handleAddToCart}
+                        className="btn rounded-3xl badge badge-outline w-full hover:bg-gray-200 transition-all">Add To Cart <HiOutlineShoppingCart className="text-xl text-orange-500 "></HiOutlineShoppingCart></button>
                 </div>
             </div>
         </div>
