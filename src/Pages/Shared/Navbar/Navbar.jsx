@@ -9,6 +9,7 @@ const Navbar = () => {
         <li><Link className='font-semibold text-white' to='/allItems/homeMenuOverview'>All Items</Link></li>
         <li><Link className='font-semibold text-white' to='/'>Contact Us</Link></li>
         <li><Link className='font-semibold text-white' to='/'>Dashboard</Link></li>
+        <li><Link className='font-semibold text-white' to='/login'>Login</Link></li>
     </>
 
     return (
