@@ -78,8 +78,8 @@ const Navbar = () => {
                                     }
                                 </div>
                             </div>
-                            <div className='my-5 text-xs text-white'>User Name : <br />{user ? <>{user.displayName}</> : <span className='text-red-500 font-bold'>You are not Log in</span>}</div>
-                            <div className='my-5 text-xs text-white'>User Email : <br />{user ? <>{user.email}</> : <span className='text-red-500 font-bold'>You are not Log in</span>}</div>
+                            <div className='my-5 text-xs text-white'>User Name : <br />{user ? <>{user.displayName}</> : <span className='text-black font-bold'>(You are not Log in)</span>}</div>
+                            <div className='my-5 text-xs text-white'>User Email : <br />{user ? <>{user.email}</> : <span className='text-black font-bold'>(You are not Log in)</span>}</div>
 
                             <li><Link className='font-semibold text-white mx-auto' ><button onClick={handleLogOut} className='px-3 py-1 rounded-md bg-blue-500 hover:bg-orange-600 w-full'>Log Out</button></Link></li>
                         </div>

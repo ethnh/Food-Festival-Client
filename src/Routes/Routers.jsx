@@ -10,6 +10,7 @@ import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Layout/Dashboard";
 import Cart from "../Pages/UserDashboard/Cart";
+import AllUsers from "../Pages/AdminDashboard/AllUsers";
 
 export const router = createBrowserRouter([
     {
@@ -74,10 +75,10 @@ export const router = createBrowserRouter([
             //     element: <AdminRoute><ItemUpdate></ItemUpdate></AdminRoute>,
             //     loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
             // },
-            // {
-            //     path: 'users',
-            //     element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
-            // }
+            {
+                path: 'alluser',
+                element: <AllUsers></AllUsers>
+            }
         ]
     }
 ]);

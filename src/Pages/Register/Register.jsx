@@ -8,6 +8,7 @@ import CoverImageThree from '../Shared/CoverImage/CoverImageThree';
 import registerCover from '../../assets/img/smImg1.jpg'
 import Swal from 'sweetalert2';
 import useAxiosPublic from '../../Hooks/useAxiosPublic';
+import SocialLogin from '../../Components/SocialLogin/SocialLogin';
 
 const Register = () => {
     const { createUser, updateUserProfile } = useAuth();
@@ -124,6 +125,8 @@ const Register = () => {
                             <div>
                                 <p className="my-3">Already have an account? so, please <Link to='/login' className="text-blue-500 underline">Login</Link></p>
                             </div>
+                            <div className='divider'></div>
+                            <SocialLogin></SocialLogin>
                         </form>
                     </div>
                 </div>

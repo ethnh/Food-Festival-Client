@@ -7,6 +7,7 @@ import useCarts from "../Hooks/useCarts";
 import logo from '../assets/logo/logo.png'
 import { FaBurger } from "react-icons/fa6";
 import { IoFastFoodOutline } from "react-icons/io5";
+import useAdmin from "../Hooks/useAdmin";
 
 const Dashboard = () => {
     const [cart] = useCarts();
@@ -20,7 +21,7 @@ const Dashboard = () => {
     </>
 
 
-    const isAdmin = false;
+    const [isAdmin] = useAdmin();
     return (
         <div className="p-5">
 
@@ -64,12 +65,21 @@ const Dashboard = () => {
                                 </li>
 
                                 <li>
-                                    <NavLink to='/dashboard/adminHome'><span className="text-white flex gap-2 items-center font-bold"><IoFastFoodOutline className="text-xl"></IoFastFoodOutline> Manage Order</span></NavLink>
+                                    <NavLink to='/dashboard/manageOrder'><span className="text-white flex gap-2 items-center font-bold"><IoFastFoodOutline className="text-xl"></IoFastFoodOutline> Manage Order</span></NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/dashboard/users'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>
+                                    <NavLink to='/dashboard/alluser'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>
                                 </li>
-                            </> :
+                            </>
+
+
+
+
+
+                                :
+
+
+
                                 <> <h1 className="text-center my-5 font-bold text-2xl">User Home</h1>
                                     <li>
                                         <NavLink to='/dashboard/cart'><span className="text-white flex gap-2 items-center font-bold"><FaShoppingCart className="text-xl"></FaShoppingCart> My Cart ({cart.length})</span></NavLink>
