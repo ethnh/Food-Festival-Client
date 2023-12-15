@@ -9,6 +9,7 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Layout/Dashboard";
+import Cart from "../Pages/UserDashboard/Cart";
 
 export const router = createBrowserRouter([
     {
@@ -41,11 +42,11 @@ export const router = createBrowserRouter([
         path: 'dashboard',
         element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
         children: [
-            // // e gulo normal user routes
-            // {
-            //     path: 'cart',
-            //     element: <Cart></Cart>
-            // },
+            // e gulo normal user routes
+            {
+                path: 'cart',
+                element: <Cart></Cart>
+            },
             // {
             //     path: 'payment',
             //     element: <Payment></Payment>

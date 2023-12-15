@@ -7,11 +7,12 @@ import CoverImageThree from '../Shared/CoverImage/CoverImageThree';
 
 import registerCover from '../../assets/img/smImg1.jpg'
 import Swal from 'sweetalert2';
+import useAxiosPublic from '../../Hooks/useAxiosPublic';
 
 const Register = () => {
     const { createUser, updateUserProfile } = useAuth();
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
-    // const axiosPublic = useAxiosPublic();
+    const axiosPublic = useAxiosPublic();
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -28,7 +29,8 @@ const Register = () => {
                         // console.log('user Updated')
                         const userInfo = {
                             name: data.name,
-                            email: data.email
+                            email: data.email,
+                            photoURL: data.photoURL
                         }
                         axiosPublic.post('/users', userInfo)
                             .then(res => {

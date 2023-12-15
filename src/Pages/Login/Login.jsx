@@ -5,7 +5,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import CoverImageThree from '../Shared/CoverImage/CoverImageThree';
 import useAuth from '../../Hooks/useAuth';
 import Swal from 'sweetalert2';
-import { FaGoogle } from 'react-icons/fa';
+import SocialLogin from '../../Components/SocialLogin/SocialLogin';
 
 
 const Login = () => {
@@ -72,10 +72,8 @@ const Login = () => {
                                 <p className="my-3">New to here? Create an account <Link to='/register' className="text-blue-500 underline">Register</Link></p>
                             </div>
                             <div className="divider">or,</div>
-                            <div className="space-y-3">
-                                <button className="flex items-center gap-3 w-3/4 rounded-3xl p-2 outline outline-1 outline-slate-800 mx-auto"><FaGoogle className="text-green-600"></FaGoogle>Continue With Google</button>
-                                {/* <button onClick={handleGithubLogIn} className="flex items-center gap-3 w-3/4 rounded-3xl p-2 outline outline-1 outline-slate-800 mx-auto"><FaGithub></FaGithub>Continue With Github</button> */}
-                            </div>
+                            <SocialLogin></SocialLogin>
+                            {/* ................ */}
                         </form>
                     </div>
                 </div>

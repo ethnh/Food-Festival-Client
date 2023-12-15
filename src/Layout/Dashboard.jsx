@@ -52,7 +52,7 @@ const Dashboard = () => {
                     <div className="menu space-y-3">
                         {
                             isAdmin ? <>
-                                <h1 className="text-center my-5 font-bold text-2xl">Admin Dashboard</h1>
+                                <h1 className="text-center my-5 font-bold text-2xl">Admin Home</h1>
                                 <li>
                                     <NavLink to='/dashboard/adminHome'><span className="text-white flex gap-2 items-center font-bold"><FaHome className="text-xl"></FaHome> Admin Home</span></NavLink>
                                 </li>
@@ -70,7 +70,7 @@ const Dashboard = () => {
                                     <NavLink to='/dashboard/users'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>
                                 </li>
                             </> :
-                                <> <h1 className="text-center my-5 font-bold text-2xl">User Dashboard</h1>
+                                <> <h1 className="text-center my-5 font-bold text-2xl">User Home</h1>
                                     <li>
                                         <NavLink to='/dashboard/cart'><span className="text-white flex gap-2 items-center font-bold"><FaShoppingCart className="text-xl"></FaShoppingCart> My Cart ({cart.length})</span></NavLink>
                                     </li>
