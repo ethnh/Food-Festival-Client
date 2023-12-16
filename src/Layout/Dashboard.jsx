@@ -65,7 +65,7 @@ const Dashboard = () => {
                                     <NavLink to='/dashboard/addItems'><span className="text-white flex gap-2 items-center font-bold"><FaBurger className="text-xl"></FaBurger> Add Item</span></NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/dashboard/updateItems'><span className="text-white flex gap-2 items-center font-bold"><FaEdit className="text-xl"></FaEdit> Manage /Update Items</span></NavLink>
+                                    <NavLink to='/dashboard/manageFood'><span className="text-white flex gap-2 items-center font-bold"><FaEdit className="text-xl"></FaEdit> Manage /Update Items</span></NavLink>
                                 </li>
                                 <li>
                                     <NavLink to='/dashboard/alluser'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>

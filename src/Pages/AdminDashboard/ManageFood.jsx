@@ -1,4 +1,5 @@
-import { FaEdit, FaTrash } from "react-icons/fa";
+import { MdOutlineDeleteOutline } from "react-icons/md";
+import { MdEditSquare } from "react-icons/md";
 import useAxiosSecure from "../../Hooks/useAxiosSecure";
 import useMenu from "../../Hooks/useMenu";
 import Swal from "sweetalert2";
@@ -49,6 +50,7 @@ const ManageFood = () => {
                                 </th>
                                 <th>Image</th>
                                 <th>Item Name</th>
+                                <th>Category</th>
                                 <th>Price</th>
                                 <th>Update</th>
                                 <th>Delete</th>
@@ -72,13 +74,16 @@ const ManageFood = () => {
                                     <td>
                                         {item.name}
                                     </td>
+                                    <td>
+                                        {item.category}
+                                    </td>
                                     <td>{item.price} $</td>
                                     <td>
                                         <Link to={`/dashboard/updateItems/${item._id}`}>
-                                            <button className="btn"><FaEdit className="text-red-400"></FaEdit></button>
+                                            <button className="btn"><MdEditSquare className="text-green-500"></MdEditSquare></button>
                                         </Link>
                                     </td>
-                                    <td><button onClick={() => handleDeleteItem(item)} className="btn"><FaTrash className="text-red-600"></FaTrash></button></td>
+                                    <td><button onClick={() => handleDeleteItem(item)} className="btn"><MdOutlineDeleteOutline className="text-red-500"></MdOutlineDeleteOutline></button></td>
                                 </tr>)
                             }
                         </tbody>
