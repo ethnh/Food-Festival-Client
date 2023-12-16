@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import useCarts from "../../Hooks/useCarts";
 import useAxiosSecure from "../../Hooks/useAxiosSecure";
+import { FaCcStripe } from "react-icons/fa";
 
 
 const Cart = () => {
@@ -42,18 +43,22 @@ const Cart = () => {
     return (
         <div>
             <div className="flex justify-evenly">
-                <h2 className="lg:text-4xl">Total Food Items : {cart.length}</h2>
-                <h2 className="lg:text-4xl">Total Order : {totalPrice} $</h2>
-                {
+                <h2 className="lg:text-4xl">Your total : <span className="text-green-500">{cart.length}</span> items</h2>
+                <h2 className="lg:text-4xl">Total Order cost: <span className="text-green-500">{totalPrice}</span>$</h2>
+            </div>
+            <div className="flex justify-center my-4">
+                <div>
+                    {
 
-                    cart.length ? <Link to='/dashboard/payment'>
-                        <button className="btn btn-secondary">Pay now</button>
-                    </Link>
-                        :
+                        cart.length ? <Link to='/dashboard/payment'>
+                            <button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold flex items-center gap-3">{`Pay ${totalPrice}$ now `}<FaCcStripe className="text-2xl"></FaCcStripe></button>
+                        </Link>
+                            :
 
-                        <button disabled className="btn btn-secondary">Pay now</button>
+                            <button disabled className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold flex items-center gap-3">Pay now <FaCcStripe className="text-2xl"></FaCcStripe></button>
 
-                }
+                    }
+                </div>
             </div>
             <div className="overflow-x-auto my-8">
                 <table className="table">
