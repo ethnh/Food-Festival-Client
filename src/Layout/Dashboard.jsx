@@ -21,7 +21,8 @@ const Dashboard = () => {
     </>
 
 
-    const [isAdmin] = useAdmin();
+    // const [isAdmin] = useAdmin();
+    const isAdmin = true
     return (
         <div className="p-5">
 
@@ -57,15 +58,16 @@ const Dashboard = () => {
                                 <li>
                                     <NavLink to='/dashboard/adminHome'><span className="text-white flex gap-2 items-center font-bold"><FaHome className="text-xl"></FaHome> Admin Home</span></NavLink>
                                 </li>
-                                <li>
-                                    <NavLink to='/dashboard/addItems'><span className="text-white flex gap-2 items-center font-bold"><FaBurger className="text-xl"></FaBurger> Add Item</span></NavLink>
-                                </li>
+
                                 <li>
                                     <NavLink to='/dashboard/adminHome'><span className="text-white flex gap-2 items-center font-bold"><FaEdit className="text-xl"></FaEdit> Manage Items</span></NavLink>
                                 </li>
 
                                 <li>
                                     <NavLink to='/dashboard/manageOrder'><span className="text-white flex gap-2 items-center font-bold"><IoFastFoodOutline className="text-xl"></IoFastFoodOutline> Manage Order</span></NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/dashboard/addItems'><span className="text-white flex gap-2 items-center font-bold"><FaBurger className="text-xl"></FaBurger> Add Item</span></NavLink>
                                 </li>
                                 <li>
                                     <NavLink to='/dashboard/alluser'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>
