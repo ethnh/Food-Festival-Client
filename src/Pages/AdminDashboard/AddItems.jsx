@@ -29,10 +29,10 @@ const AddItems = () => {
                 price: parseFloat(data.price),
                 recipe: data.recipe,
                 image: res.data.data.display_url,
-                offer: res.data.offer,
-                rating: res.data.rating,
-                posiviteOne: res.data.posiviteOne,
-                posiviteTwo: res.data.posiviteTwo
+                offer: data.offer,
+                rating: data.rating,
+                posiviteOne: data.posiviteOne,
+                posiviteTwo: data.posiviteTwo
             }
             const menuRes = await axiosSecure.post('/menu', menuItem);
             if (menuRes.data.insertedId) {
