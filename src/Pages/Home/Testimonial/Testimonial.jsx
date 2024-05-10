@@ -11,6 +11,7 @@ import {
 } from "swiper/modules";
 import { useEffect, useState } from "react";
 import TestimonialCard from "./TestimonialCard";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Testimonial = () => {
     const [reviews, setReviews] = useState([]);
@@ -22,10 +23,8 @@ const Testimonial = () => {
 
     // rating,review,authorName,authorPosition,imageUrl
     return (
-        <div className="pb-0 bg-gray-50">
-            <p className="pt-16 text-xl text-center font-bold md:text-2xl lg:text-3xl">
-                Satisfaction in Words
-            </p>
+        <div className="pb-0">
+            <SectionTitle heading={'Satisfaction in Words'}></SectionTitle>
             <Swiper
                 // pagination={true}
                 modules={[Autoplay, Navigation, Pagination, Scrollbar, EffectCube]}

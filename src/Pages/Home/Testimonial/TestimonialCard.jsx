@@ -8,7 +8,7 @@ const TestimonialCard = ({ testimonial }) => {
                 <div className="flex items-center gap-4">
                     <div className="pr-4 border-r border-r-gray-500">
                         <p className="text-lg font-bold"> {testimonial.authorName}</p>
-                        <p className="text-[12px]">{testimonial.authorPosition}</p>
+                        <p className="text-[12px] text-left">{testimonial.authorPosition}</p>
                     </div>
                 </div>
                 <Rating
@@ -17,7 +17,7 @@ const TestimonialCard = ({ testimonial }) => {
                     precision={0.5}
                     readOnly
                 />
-                <p className="text-[13px] ">{testimonial.review}</p>
+                <p className="text-[13px] text-left">{testimonial.review}</p>
             </div>
             <div className="w-[80%] h-[280px] ml-5">
                 <img

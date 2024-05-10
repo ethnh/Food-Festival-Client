@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.17",
     "@smastrom/react-rating": "^1.4.0",
     "@stripe/react-stripe-js": "^2.4.0",
@@ -32,7 +34,7 @@
     "react-tabs": "^6.0.2",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.10.1",
-    "swiper": "^11.0.5"
+    "swiper": "^11.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
