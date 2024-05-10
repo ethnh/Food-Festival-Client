@@ -1,12 +1,11 @@
 
-import { FaEdit, FaHome, FaShoppingCart, FaUsers, } from "react-icons/fa";
+import { FaEdit, FaShoppingCart, FaUsers, } from "react-icons/fa";
 import { MdPayment } from "react-icons/md";
 import { VscFeedback } from "react-icons/vsc";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import useCarts from "../Hooks/useCarts";
 import logo from '../assets/logo/logo.png'
 import { FaBurger } from "react-icons/fa6";
-import { IoFastFoodOutline } from "react-icons/io5";
 import useAdmin from "../Hooks/useAdmin";
 
 const Dashboard = () => {
@@ -23,10 +22,8 @@ const Dashboard = () => {
 
     const [isAdmin] = useAdmin();
     return (
-        <div className="p-5">
-
-
-            <div className="navbar bg-black bg-opacity-50 mt-5 lg:w-1/2 mx-auto rounded-md">
+        <div>
+            <div className="navbar bg-black bg-opacity-50 lg:w-full mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,7 +33,7 @@ const Dashboard = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <Link to='/'><img src={logo} className="w-[70px]" alt="" /></Link>
+                    <Link to='/'><img src={logo} className="w-[70px] h-[70px]" alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -48,27 +45,20 @@ const Dashboard = () => {
 
 
 
-            <div className="lg:flex md:flex mt-4">
-                <div className="lg:w-64 md:w-64 min-h-screen bg-red-400 rounded-md">
+            <div className="lg:flex md:flex">
+                <div className="lg:w-[240px] md:w-[240px] min-h-screen bg-black bg-opacity-50">
                     <div className="menu space-y-3">
                         {
                             isAdmin ? <>
-                                <h1 className="text-center my-5 font-bold text-2xl">Admin Home</h1>
-                                <li>
-                                    <NavLink to='/dashboard/adminHome'><span className="text-white flex gap-2 items-center font-bold"><FaHome className="text-xl"></FaHome> Admin Home</span></NavLink>
-                                </li>
-
-                                <li>
-                                    <NavLink to='/dashboard/manageOrder'><span className="text-white flex gap-2 items-center font-bold"><IoFastFoodOutline className="text-xl"></IoFastFoodOutline> Manage Order</span></NavLink>
-                                </li>
+                                <h1 className="my-5 font-bold text-2xl">Admin Home</h1>
                                 <li>
                                     <NavLink to='/dashboard/addItems'><span className="text-white flex gap-2 items-center font-bold"><FaBurger className="text-xl"></FaBurger> Add Item</span></NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/dashboard/manageFood'><span className="text-white flex gap-2 items-center font-bold"><FaEdit className="text-xl"></FaEdit> Manage /Update Items</span></NavLink>
+                                    <NavLink to='/dashboard/manageFood'><span className="text-white flex gap-2 items-center font-bold"><FaEdit className="text-xl"></FaEdit> Manage / Update Items</span></NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/dashboard/alluser'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User</span></NavLink>
+                                    <NavLink to='/dashboard/alluser'><span className="text-white flex gap-2 items-center font-bold"><FaUsers className="text-xl"></FaUsers> All User / Manage User</span></NavLink>
                                 </li>
 
                             </>
@@ -81,7 +71,7 @@ const Dashboard = () => {
 
 
 
-                                <> <h1 className="text-center my-5 font-bold text-2xl">User Home</h1>
+                                <> <h1 className="my-5 font-bold text-2xl">User Home</h1>
                                     <li>
                                         <NavLink to='/dashboard/cart'><span className="text-white flex gap-2 items-center font-bold"><FaShoppingCart className="text-xl"></FaShoppingCart> My Cart ({cart.length})</span></NavLink>
                                     </li>

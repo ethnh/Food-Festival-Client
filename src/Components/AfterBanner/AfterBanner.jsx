@@ -6,7 +6,7 @@ const AfterBanner = () => {
     return (
         <div className="lg:flex justify-center gap-4 space-y-1">
 
-            <div className="card flex-1 bg-base-100 shadow-xl lg:h-[270px]">
+            <div className="card flex-1 lg:h-[270px]">
                 <div className="flex justify-center items-center mt-3"><FaHandHoldingUsd className="text-8xl text-orange-500 bg-orange-100 p-3 rounded-full"></FaHandHoldingUsd></div>
                 <div className="card-body text-center">
                     <h2 className="text-2xl font-semibold text-center text-gray-600">
@@ -19,7 +19,7 @@ const AfterBanner = () => {
 
 
 
-            <div className="card flex-1 bg-base-100 shadow-xl lg:h-[270px]">
+            <div className="card flex-1 lg:h-[270px]">
                 <div className="flex justify-center items-center mt-3"><GiHamburger className="text-8xl text-orange-500 bg-orange-100 p-3 rounded-full"></GiHamburger></div>
                 <div className="card-body text-center">
                     <h2 className="text-2xl font-semibold text-center text-gray-600">
@@ -31,7 +31,7 @@ const AfterBanner = () => {
 
 
 
-            <div className="card flex-1 bg-base-100 shadow-xl  lg:h-[270px]">
+            <div className="card flex-1  lg:h-[270px]">
                 <div className="flex justify-center items-center mt-3"><IoFastFoodOutline className="text-8xl text-orange-500 bg-orange-100 p-3 rounded-full"></IoFastFoodOutline></div>
                 <div className="card-body text-center">
                     <h2 className="text-2xl font-semibold text-center text-gray-600">
