@@ -16,7 +16,7 @@ const OurFoodQuality = () => {
                     <div className="py-3">Welcome to Food Fastival! Indulge in a culinary journey where exquisite flavors and impeccable quality converge.
                         <p className='my-2'>Our restaurant promises a delectable experience with meticulously crafted dishes using only the finest ingredients. Savor the excellence in every bite, as we redefine your dining expectations with our commitment to exceptional food quality</p>
                     </div>
-                    <Link to=''><button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold">Order Now From Menu</button></Link>
+                    <Link to='/menu'><button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold">Order Now From Menu</button></Link>
                 </div>
             </div>
         </div>

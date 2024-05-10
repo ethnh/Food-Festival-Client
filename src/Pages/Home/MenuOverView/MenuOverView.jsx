@@ -23,7 +23,7 @@ const MenuOverView = () => {
                 </div>
             </div>
             <div className="text-center my-10">
-                <Link to='/'><button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold">Order Food From Menu</button></Link>
+                <Link to='/menu'><button className="px-4 py-2 bg-[#FF4860] rounded-2xl btn-outline text-white font-bold">Order Food From Menu</button></Link>
             </div>
         </section>
     );
