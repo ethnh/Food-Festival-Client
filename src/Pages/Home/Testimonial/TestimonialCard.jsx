@@ -22,7 +22,7 @@ const TestimonialCard = ({ testimonial }) => {
             <div className="w-[80%] h-[280px] ml-5">
                 <img
                     src={testimonial.imageUrl}
-                    alt=""
+                    alt="Image"
                     className="object-cover h-full border-[3px] border-base-400 rounded-md"
                 />
             </div>
