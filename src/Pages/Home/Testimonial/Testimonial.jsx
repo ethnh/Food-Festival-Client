@@ -1,14 +1,16 @@
-import { FaQuoteRight } from "react-icons/fa";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import {
+    Navigation,
+    Pagination,
+    Scrollbar,
+    EffectCube,
+    Autoplay,
+} from "swiper/modules";
 import { useEffect, useState } from "react";
-import { Rating } from "@smastrom/react-rating";
-import '@smastrom/react-rating/style.css';
-import { FaComments } from "react-icons/fa";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
+import TestimonialCard from "./TestimonialCard";
 
 const Testimonial = () => {
     const [reviews, setReviews] = useState([]);
@@ -17,32 +19,28 @@ const Testimonial = () => {
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
+
+    // rating,review,authorName,authorPosition,imageUrl
     return (
-        <section className="my-20">
-            <SectionTitle heading={"Testimonial"} subHeading={'Whats Our Regular Customar say?'}></SectionTitle>
-
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                {
-                    reviews.map(review => <SwiperSlide key={review._id}>
-                        <div className="lg:my-16 lg:mx-24 flex flex-col items-center lg:max-w-2xl p-3 shadow-xl rounded-2xl bg-slate-50">
-
-                            <h3 className="lg:text-2xl text-orange-400 flex items-center gap-2 my-3">{review.name}
-                                <p><FaQuoteRight className="text-5xl mx-auto text-gray-200"></FaQuoteRight></p></h3>
-                            <Rating
-                                style={{ maxWidth: 180 }}
-                                value={review.rating}
-                                readOnly
-                            />
-                            <div className="my-8">
-                                <p>{review.details} </p>
-                            </div>
-                            <FaComments className="text-5xl text-gray-200"></FaComments>
-                        </div>
-                    </SwiperSlide>)
-                }
-
+        <div className="pb-0 bg-gray-50">
+            <p className="pt-16 text-xl text-center font-bold md:text-2xl lg:text-3xl">
+                Satisfaction in Words
+            </p>
+            <Swiper
+                // pagination={true}
+                modules={[Autoplay, Navigation, Pagination, Scrollbar, EffectCube]}
+                className="mySwiper"
+                autoplay={{ delay: 2500, disableOnInteraction: false }}
+                loop={true}
+                speed={2000}
+            >
+                {reviews.map((testimonial) => (
+                    <SwiperSlide key={testimonial.imageUrl}>
+                        <TestimonialCard testimonial={testimonial} />
+                    </SwiperSlide>
+                ))}
             </Swiper>
-        </section>
+        </div>
     );
 };
 
