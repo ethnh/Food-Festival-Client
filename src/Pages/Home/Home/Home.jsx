@@ -7,6 +7,7 @@ import MenuOverView from "../MenuOverView/MenuOverView";
 import OurFoodQuality from "../OurFoodQuality/OurFoodQuality";
 import PopularMenuOverview from "../PopularMenuOverview/PopularMenuOverview";
 import Testimonial from "../Testimonial/Testimonial";
+import Team from "../Team/Team";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             <MenuOverView></MenuOverView>
             <PopularMenuOverview></PopularMenuOverview>
             <RegisterLink></RegisterLink>
+            <Team></Team>
             <Testimonial></Testimonial>
         </div>
     );

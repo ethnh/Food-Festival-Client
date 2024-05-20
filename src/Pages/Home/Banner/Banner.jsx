@@ -31,7 +31,7 @@ const Banner = () => {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://eu-central.storage.cloudconvert.com/tasks/0f382cf5-c353-4b3d-abcb-ef47a091cc7a/ilya-mashkov-_qxbJUr9RqI-unsplash.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240511%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240511T062405Z&X-Amz-Expires=86400&X-Amz-Signature=363771fb05e37c052dda0a8508cd020170a3740755391b99d45350ebf45a05e4&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22ilya-mashkov-_qxbJUr9RqI-unsplash.webp%22&response-content-type=image%2Fwebp&x-id=GetObject')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/02dphSZ/ilya-mashkov-mk-Va2h-LJgn-I-unsplash-2.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white ">Savor Culinary Delights at Our Restaurant</h1>
