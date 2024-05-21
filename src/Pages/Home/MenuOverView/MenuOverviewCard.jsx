@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa6";
 const MenuOverviewCard = ({ item }) => {
     const { image, name, price, recipe, rating } = item;
     return (
-        <div className="flex-col space-y-3 shadow-xl rounded-md p-3 hover:translate-y-5 transition-all">
+        <div className="cardEffect flex-col space-y-3 shadow-xl rounded-md p-3">
             <img style={{ borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70% " }} className="w-[150px] h-28" src={image} alt="" />
             <div className="lg:h-20">
                 <h3 className="uppercase text-lg font-bold">{name}</h3>

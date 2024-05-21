@@ -5,7 +5,7 @@ import { HiOutlineCheckBadge } from "react-icons/hi2";
 const PopularMenuCard = ({ item }) => {
     const { image, name, price, offer, rating, withFood, quantity } = item;
     return (
-        <div>
+        <div className="cardEffect">
             <div className="card card-compact w-80 bg-base-100 shadow-2xl">
                 <figure><img className="w-full h-60" src={image} alt="Shoes" /></figure>
                 <div className="  bg-black bg-opacity-70 p-1 mt-2 rounded-xl font-bold absolute left-3"><IoBookmarksOutline className="text-white  text-2xl" /></div>
