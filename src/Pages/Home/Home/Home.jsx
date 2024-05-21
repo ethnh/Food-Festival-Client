@@ -45,7 +45,7 @@ const Home = () => {
                 <PopularMenuOverview></PopularMenuOverview>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="2000">
+            <div>
                 <RegisterLink></RegisterLink>
             </div>
 
