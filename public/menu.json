@@ -280,7 +280,7 @@
     {
         "name": "VelvetWhisper Cake",
         "recipe": "Silky layers of red velvet, kissed with cream cheese frosting—a decadent whisper of indulgence.",
-        "image": "https://i.ibb.co/RPHYqrL/american-heritage-chocolate-vdx5h-PQh-XFk-unsplash-1.jpg",
+        "image": "https://i.ibb.co/QYKx3hq/american-heritage-chocolate-vdx5h-PQh-XFk-unsplash.jpg",
         "category": "cake",
         "offer":10,
         "price": 53,
@@ -291,7 +291,7 @@
     {
         "name": "HeavenlyBite Delight",
         "recipe": "Fluffy layers, rich ganache, and a hint of almond—each bite transports you to bliss.",
-        "image": "https://i.ibb.co/sFs9wLF/david-holifield-k-Pxsq-UGne-XQ-unsplash-1.jpg",
+        "image": "https://i.ibb.co/9VHSy9s/david-holifield-k-Pxsq-UGne-XQ-unsplash-1.jpg",
         "category": "cake",
         "offer":0,
         "price": 54,
@@ -302,7 +302,7 @@
     {
         "name": "BlissfulBerry Dream",
         "recipe": "Bursting with seasonal berries, this dreamy confection is a symphony of fruity delight.",
-        "image": "https://i.ibb.co/2Y7rT2X/michaela-baum-Vn-M6-li-IRJ0-unsplash.jpg",
+        "image": "https://i.ibb.co/37jBTGk/michaela-baum-Vn-M6-li-IRJ0-unsplash.jpg",
         "category": "cake",
         "offer":0,
         "price": 55,
@@ -313,7 +313,7 @@
     {
         "name": "RoyalVelvet Elegance",
         "recipe": "Majestic layers of royal blue velvet adorned with edible gold—a regal and sumptuous treat.",
-        "image": "https://i.ibb.co/FsmZYmr/caitlyn-de-wild-sx-IVqaksdf-E-unsplash.jpg",
+        "image": "https://i.ibb.co/SmC0hG1/caitlyn-de-wild-sx-IVqaksdf-E-unsplash.jpg",
         "category": "cake",
         "offer":0,
         "price": 55,
@@ -324,7 +324,7 @@
     {
         "name": "CitrusSunrise Celebration",
         "recipe": "Zesty lemon layers meet a citrus-infused frosting—a celebration of bright, refreshing flavors.",
-        "image": "https://i.ibb.co/xGwKJQG/takuya-nagaoka-f-ENv-SZUzbz-U-unsplash.jpg",
+        "image": "https://i.ibb.co/R239FL2/takuya-nagaoka-f-ENv-SZUzbz-U-unsplash.jpg",
         "category": "cake",
         "offer":0,
         "price": 35,
@@ -335,7 +335,7 @@
     {
         "name": "DivineChoco Harmony",
         "recipe": "A divine blend of dark and milk chocolate, creating a harmonious masterpiece of cocoa delight.",
-        "image": "https://i.ibb.co/VjW3B2P/ruth-georgiev-dvmi-NXMh9d8-unsplash.jpg",
+        "image": "https://i.ibb.co/0q57hJp/ruth-georgiev-dvmi-NXMh9d8-unsplash.jpg",
         "category": "cake",
         "offer":20,
         "price": 35,
@@ -346,7 +346,7 @@
     {
         "name": "LusciousLemon Fantasy",
         "recipe": "Lemon-infused layers, whipped cream, and candied lemon zest—a fantastical journey of citrus ecstasy.",
-        "image": "https://i.ibb.co/2YR3sbp/diana-light-Q7-W8-NF-N5-Fo-unsplash.jpg",
+        "image": "https://i.ibb.co/nR6Y9FF/diana-light-Q7-W8-NF-N5-Fo-unsplash.jpg",
         "category": "cake",
         "offer":0,
         "price": 55,
@@ -357,7 +357,7 @@
     {
         "name": "TangyTeriyaki Wings",
         "recipe": "Succulent wings glazed in a tantalizing teriyaki fusion, balancing sweet and savory perfection.",
-        "image": "https://i.ibb.co/6Rm3XH7/syed-f-hashemi-p91-GLh-Qv35o-unsplash-2.jpg",
+        "image": "https://i.ibb.co/YQkC6mk/syed-f-hashemi-p91-GLh-Qv35o-unsplash-1.jpg",
         "category": "wings",
         "offer":0,
         "price": 58,
@@ -368,7 +368,7 @@
     {
         "name": "SpicyHoney Glazed Wings",
         "recipe": "Crispy, spicy heat meets sweet honey glaze—a mouthwatering dance of flavors.",
-        "image": "https://i.ibb.co/pnc0w0C/alaundra-alford-Bm-Rb-JBoud-Dw-unsplash.jpg",
+        "image": "https://i.ibb.co/vLwXpjS/alaundra-alford-Bm-Rb-JBoud-Dw-unsplash.jpg",
         "category": "wings",
         "offer":0,
         "price": 48,
@@ -379,7 +379,7 @@
     {
         "name": "CrispyLemon Pepper Wings",
         "recipe": "Zesty lemon and bold pepper unite, coating crispy wings in a citrusy, peppery symphony.",
-        "image": "https://i.ibb.co/sHJyKct/clark-douglas-T60-ki-Fzm-E-unsplash.jpg",
+        "image": "https://i.ibb.co/wpMfzYD/clark-douglas-T60-ki-Fzm-E-unsplash.jpg",
         "category": "wings",
         "offer":30,
         "price": 48,
@@ -390,7 +390,7 @@
     {
         "name": "SmokyMaple Bourbon Wings",
         "recipe": "A smoky embrace of bourbon-infused maple glaze elevates these wings to a flavor-packed sensation.",
-        "image": "https://i.ibb.co/WBsxsWR/karyna-panchenko-Ba-KVa-SIs2s-unsplash.jpg",
+        "image": "https://i.ibb.co/vq1jcq9/karyna-panchenko-Ba-KVa-SIs2s-unsplash.jpg",
         "category": "wings",
         "offer":40,
         "price": 18,
@@ -401,7 +401,7 @@
     {
         "name": "GarlicParmesan Bliss Wings",
         "recipe": "Crispy wings coated in a heavenly blend of garlic and parmesan—a savory, indulgent delight.",
-        "image": "https://i.ibb.co/bgSQTDv/logan-jeffrey-GRQt7id-ZRi0-unsplash.jpg",
+        "image": "https://i.ibb.co/CKGDL2q/logan-jeffrey-GRQt7id-ZRi0-unsplash.jpg",
         "category": "wings",
         "offer":10,
         "price": 19,
@@ -412,7 +412,7 @@
     {
         "name": "TurkeyHarvest Club",
         "recipe": " A symphony of roasted turkey, crisp bacon, avocado, and harvest veggies—a satisfying, flavorful ensemble.",
-        "image": "https://i.ibb.co/tD20CTK/mae-mu-IZ0-LRt1khg-M-unsplash.jpg",
+        "image": "https://i.ibb.co/q52NTM9/mae-mu-IZ0-LRt1khg-M-unsplash.jpg",
         "category": "sandwich",
         "offer":20,
         "price": 23,
@@ -423,7 +423,7 @@
     {
         "name": "MediterraneanMelt",
         "recipe": "Feta, olives, sun-dried tomatoes, and grilled chicken meld in a Mediterranean melody of tastes.",
-        "image": "https://i.ibb.co/zVb8gHv/pixzolo-photography-Bi-Wb1-Y8wp-Zk-unsplash-1.jpg",
+        "image": "https://i.ibb.co/TRm8hJL/pixzolo-photography-Bi-Wb1-Y8wp-Zk-unsplash.jpg",
         "category": "sandwich",
         "offer":0,
         "price": 25,
@@ -434,7 +434,7 @@
     {
         "name": "BBQChicken Bliss",
         "recipe": "Grilled chicken, smoky barbecue sauce, caramelized onions, and melted cheddar—a blissful BBQ fusion.",
-        "image": "https://i.ibb.co/TWzvjRK/the-matter-of-food-loey-DId-EW-w-unsplash-2.jpg",
+        "image": "https://i.ibb.co/564LrBX/the-matter-of-food-loey-DId-EW-w-unsplash-2.jpg",
         "category": "sandwich",
         "offer":0,
         "price": 26,
@@ -445,7 +445,7 @@
     {
         "name": "VeggieZen Wrap",
         "recipe": "Fresh greens, hummus, cucumber, and roasted peppers wrapped for a veggie-packed, zen-inducing delight.",
-        "image": "https://i.ibb.co/BBhsRrb/amirali-mirhashemian-Ea-Ib-Qfxm-0-unsplash.jpg",
+        "image": "https://i.ibb.co/9VyctV6/amirali-mirhashemian-Ea-Ib-Qfxm-0-unsplash.jpg",
         "category": "sandwich",
         "offer":10,
         "price": 27,
@@ -456,7 +456,7 @@
     {
         "name": "SmokeMaster's Grillhouse",
         "recipe": "Slow-smoked meats, infused with aromatic wood, creating a symphony of bold, smoky flavors.",
-        "image": "https://i.ibb.co/Z25375n/joshua-kantarges-w-O4-Cy-Wn-Izz4-unsplash.jpg",
+        "image": "https://i.ibb.co/RpjMHzj/joshua-kantarges-w-O4-Cy-Wn-Izz4-unsplash.jpg",
         "category": "bbq",
         "offer":10,
         "price": 60,
@@ -467,7 +467,7 @@
     {
         "name": "FirePit BBQ Haven",
         "recipe": " Grilled to perfection, our BBQ paradise offers fiery char, succulent meats, and savory, indulgent sauces.",
-        "image": "https://i.ibb.co/ygSfjSf/emerson-vieira-3wzps8-Kbd-CQ-unsplash.jpg",
+        "image": "https://i.ibb.co/txWdg7b/emerson-vieira-3wzps8-Kbd-CQ-unsplash.jpg",
         "category": "bbq",
         "offer":0,
         "price": 70,
@@ -478,7 +478,7 @@
     {
         "name": "EmberEpic BBQ Co",
         "recipe": "Harnessing the power of embers, our BBQ crafts unforgettable dishes—bold, flavorful, and utterly epic.",
-        "image": "https://i.ibb.co/xMXf5gw/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash-1.jpg",
+        "image": "https://i.ibb.co/qM1FMbk/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash-1.jpg",
         "category": "bbq",
         "offer":10,
         "price": 40,
