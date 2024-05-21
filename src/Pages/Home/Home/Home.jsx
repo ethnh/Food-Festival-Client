@@ -25,35 +25,35 @@ const Home = () => {
             <div data-aos="fade-up" data-aos-duration="1500">
                 <Banner></Banner>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1500">
+            <div data-aos="fade-right" data-aos-duration="2000">
                 <AfterBanner></AfterBanner>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1500">
+            <div data-aos="fade-left" data-aos-duration="2000">
                 <CategoryOverView></CategoryOverView>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1500">
+            <div data-aos="fade-right" data-aos-duration="2000">
                 <OurFoodQuality></OurFoodQuality>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1500">
+            <div data-aos="fade-left" data-aos-duration="2000">
                 <MenuOverView></MenuOverView>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1500">
+            <div data-aos="fade-right" data-aos-duration="2000">
                 <PopularMenuOverview></PopularMenuOverview>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1500">
+            <div data-aos="fade-left" data-aos-duration="2000">
                 <RegisterLink></RegisterLink>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1500">
+            <div data-aos="fade-right" data-aos-duration="2000">
                 <Team></Team>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1500">\
+            <div data-aos="fade-left" data-aos-duration="2000">
                 <Testimonial></Testimonial>
             </div>
         </div>
