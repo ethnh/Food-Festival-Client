@@ -25,14 +25,37 @@ const Home = () => {
             <div data-aos="fade-up" data-aos-duration="1500">
                 <Banner></Banner>
             </div>
-            <AfterBanner></AfterBanner>
-            <CategoryOverView></CategoryOverView>
-            <OurFoodQuality></OurFoodQuality>
-            <MenuOverView></MenuOverView>
-            <PopularMenuOverview></PopularMenuOverview>
-            <RegisterLink></RegisterLink>
-            <Team></Team>
-            <Testimonial></Testimonial>
+            <div data-aos="fade-right" data-aos-duration="1500">
+                <AfterBanner></AfterBanner>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <CategoryOverView></CategoryOverView>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1500">
+                <OurFoodQuality></OurFoodQuality>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <MenuOverView></MenuOverView>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1500">
+                <PopularMenuOverview></PopularMenuOverview>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <RegisterLink></RegisterLink>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1500">
+                <Team></Team>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="1500">\
+                <Testimonial></Testimonial>
+            </div>
         </div>
     );
 };
