@@ -10,7 +10,7 @@ const AfterBanner = () => {
                 <div className="flex justify-center items-center mt-3"><FaHandHoldingUsd className="text-8xl text-orange-500 bg-orange-100 p-3 rounded-full"></FaHandHoldingUsd></div>
                 <div className="card-body text-center">
                     <h2 className="text-2xl font-semibold text-center text-gray-600">
-                        Dixcount Voucher!
+                        Dixcount Voucher!!
                     </h2>
                     <p className="text-gray-500">Unlock Savings: Your Exclusive Discount Voucher for Irresistible Deals Awaits You!</p>
                 </div>

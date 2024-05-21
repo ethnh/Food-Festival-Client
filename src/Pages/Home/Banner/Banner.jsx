@@ -31,7 +31,7 @@ const Banner = () => {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/02dphSZ/ilya-mashkov-mk-Va2h-LJgn-I-unsplash-2.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/vJhLQc0/barger-Image.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white ">Savor Culinary Delights at Our Restaurant</h1>
@@ -41,7 +41,7 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/PQK78f1/ivan-torres-MQUqbmsz-GGM-unsplash-1.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/pw5Tw5k/ivan-torres-MQUqbmsz-GGM-unsplash-1-2-1.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white">Unforgettable Dining Adventures Await</h1>
@@ -51,7 +51,7 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/LR3nSKQ/the-matter-of-food-loey-DId-EW-w-unsplash-1.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/SQM9wVd/the-matter-of-food-loey-DId-EW-w-unsplash-1.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white">Indulge in Gastronomic Wonders</h1>
@@ -62,7 +62,7 @@ const Banner = () => {
                     </div></SwiperSlide>
 
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/M502M1t/chad-montano-g-E28a-Tnlq-JA-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/s5WSp3Z/chad-montano-g-E28a-Tnlq-JA-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white ">Savor Culinary Delights at Our Restaurant</h1>
@@ -72,7 +72,7 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/mRW9R5j/david-holifield-k-Pxsq-UGne-XQ-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/ZG9N68P/david-holifield-k-Pxsq-UGne-XQ-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white"> A Melody of Irresistible Tastes</h1>
@@ -82,7 +82,7 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/bzRzsPG/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/yQsZgb3/alexandru-bogdan-ghita-Ue-Ykq-Qh4-Po-I-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white"> Indulge in Gastronomic Wonders</h1>
@@ -93,7 +93,7 @@ const Banner = () => {
                     </div></SwiperSlide>
 
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/prykSGr/paras-kapoor-SQ1v-UOx-SIZc-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/wwnfpFh/paras-kapoor-SQ1v-UOx-SIZc-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white">Where Every Bite Tells a Story</h1>
@@ -103,7 +103,7 @@ const Banner = () => {
                         </div>
                     </div></SwiperSlide>
 
-                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/g9R1BJ0/davide-cantelli-jpkfc5-d-DI-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
+                    <SwiperSlide><div className="hero relative overflow-hidden bg-no-repeat text-center bg-[url('https://i.ibb.co/GRYxsKk/davide-cantelli-jpkfc5-d-DI-unsplash.jpg')] h-[400px] lg:h-screen bg-cover">
                         <div className="flex justify-center items-center h-full w-full text-center bg-gradient-to-r from-[#125058c7] to-[rgba(21, 21, 21, 0.00)] absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed">
                             <div className="max-w-2xl bg-black bg-opacity-60 p-4">
                                 <h1 className="text-3xl font-bold text-white"> Unleashing the Art of Flavor</h1>
