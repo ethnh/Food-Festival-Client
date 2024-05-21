@@ -8,15 +8,23 @@ import OurFoodQuality from "../OurFoodQuality/OurFoodQuality";
 import PopularMenuOverview from "../PopularMenuOverview/PopularMenuOverview";
 import Testimonial from "../Testimonial/Testimonial";
 import Team from "../Team/Team";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const Home = () => {
+    useEffect(() => {
+        Aos.init();
+    }, []);
     return (
         <div>
             <Helmet>
                 <title>Food Festival | Home</title>
             </Helmet>
-            <Banner></Banner>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <Banner></Banner>
+            </div>
             <AfterBanner></AfterBanner>
             <CategoryOverView></CategoryOverView>
             <OurFoodQuality></OurFoodQuality>

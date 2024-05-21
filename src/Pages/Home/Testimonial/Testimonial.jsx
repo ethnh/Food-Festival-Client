@@ -19,7 +19,7 @@ const Testimonial = () => {
             "authorName": "Ishtiak Ahmed",
             "authorPosition": "Web Developer",
             "imageUrl":
-                "https://i.ibb.co/x1dS58K/IMG-20210618-180837.jpg"
+                "https://i.ibb.co/KNG2vV3/IMG-20210618-180837-1.jpg"
         },
         {
             "rating": "4.5",
