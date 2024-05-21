@@ -21,7 +21,7 @@ const OurFoodQuality = () => {
 
                 <img
                     alt="Violin"
-                    src="https://i.ibb.co/PQK78f1/ivan-torres-MQUqbmsz-GGM-unsplash-1.jpg"
+                    src="https://i.ibb.co/DCR1X5S/ivan-torres-MQUqbmsz-GGM-unsplash-1-3.jpg"
                     className="h-full rounded-md md:rounded-l-full  w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
                 />
             </section >
