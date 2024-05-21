@@ -18,7 +18,7 @@ const Home = () => {
         Aos.init();
     }, []);
     return (
-        <div>
+        <div className="overflow-hidden">
             <Helmet>
                 <title>Food Festival | Home</title>
             </Helmet>
