@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const MenuOverView = () => {
     const [menuOverView, setmenuOverView] = useState([]);
     useEffect(() => {
-        fetch('https://food-festival-server.vercel.app/menu')
+        fetch('http://localhost:5000/menu')
             .then(res => res.json())
             .then(data => setmenuOverView(data))
     }, [])
